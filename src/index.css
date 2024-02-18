@@ -1,0 +1,78 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(238, 235, 235);
+}
+.slider{
+  height: 300px;
+  margin-top: 30px;
+}
+.navbar{
+  position: fixed;
+  z-index: 999;
+  background-color: white;
+}
+.nav-link:hover{
+  color:#3DD5F3 !important;
+  border-bottom: 2px solid #3DD5F3;
+}
+.hero{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+.hero:hover{
+  cursor: pointer;
+ 
+}
+.hero:hover .button {
+  opacity: 1;
+}
+.carousel-inner{
+  opacity: 0.9;
+  
+}
+.carousel-inner .carousel-caption{
+  padding-bottom: 20px;
+  background-color: transparent;
+}
+
+
+.carousel-inner .carousel-caption h5{
+  font-size: 40px;
+  background-color: transparent;
+  color: red;
+  font-weight: 700;
+  
+
+}
+
+.carousel-inner .carousel-caption p{
+  font-size: 30px;
+  background-color: transparent;
+
+}
+.carousel-inner .carousel-caption a{
+  font-weight: 500;
+  font-size: 18px;
+  height: 25px;
+  width: 100px;
+  text-align: center;
+  letter-spacing: 1px;
+  display: inline-block;
+  /* padding: 10px 10px; */
+  border-radius: 20px;
+  transition: 0.5s;
+  /* border: 2px solid green; */
+  text-decoration: none;
+  background: rgb(2, 108, 2);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.carousel-caption a:hover{
+  background-color: rgb(3, 60, 3);
+}
